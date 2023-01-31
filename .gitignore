@@ -1,0 +1,5 @@
+node_modules/
+package-lock.json
+package.json
+po/
+ruralcalendar@remi.pannequin.github.com.shell-extension.zip
