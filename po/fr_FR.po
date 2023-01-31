@@ -1,0 +1,107 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-01-31 13:58+0100\n"
+"PO-Revision-Date: 2023-01-31 14:25+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Poedit 3.0.1\n"
+
+#: ../extension.js:480
+msgid " Heatidor"
+msgstr "Thermidor"
+
+#: ../extension.js:479
+msgid "Buddal"
+msgstr "Germinal"
+
+#: ../extension.js:485
+msgid "Celebration of Convictions"
+msgstr "Fête de l'Opinion"
+
+#: ../extension.js:486
+msgid "Celebration of Honors"
+msgstr "Fête des Récompenses"
+
+#: ../extension.js:485
+msgid "Celebration of Labour"
+msgstr "Fête du Travail"
+
+#: ../extension.js:484
+msgid "Celebration of Talent"
+msgstr "Fête du Génie"
+
+#: ../extension.js:484
+msgid "Celebration of Virtue"
+msgstr "Fête de la Vertu"
+
+#: ../extension.js:486
+msgid "Celebration of the Revolution"
+msgstr "Fête de la Révolution"
+
+#: ../extension.js:479
+msgid "Floweral"
+msgstr "Floréal"
+
+#: ../extension.js:477
+msgid "Fogarious"
+msgstr "Brumaire"
+
+#: ../extension.js:477
+msgid "Frostarious"
+msgstr "Frimaire"
+
+#: ../extension.js:480
+msgid "Fruitidor"
+msgstr "Fructidor"
+
+#: ../extension.js:479
+msgid "Meadowal"
+msgstr "Prairial"
+
+#: ../extension.js:478
+msgid "Rainous"
+msgstr "Pluviôse"
+
+#: ../extension.js:480
+msgid "Reapidor"
+msgstr "Messidor"
+
+#: ../extension.js:481
+msgid "Sans-culottides"
+msgstr "Sans-culottides"
+
+#: ../extension.js:478
+msgid "Snowous"
+msgstr "Nivôse"
+
+#: ../extension.js:477
+msgid "Vintagearious"
+msgstr "Vendémiaire"
+
+#: ../extension.js:478
+msgid "Windous"
+msgstr "Ventôse"
+
+#: ../extension.js:492
+msgid "first"
+msgstr "première"
+
+#: ../extension.js:492
+msgid "second"
+msgstr "deuxième"
+
+#: ../extension.js:492
+msgid "third"
+msgstr "troisième"

@@ -472,17 +472,18 @@ Astro.prototype = {
 
 class RuralCalendar {
     constructor(data) {
+        // english names taken from Thomas Carlyle (1867). The French revolution: a history. Harper.
         this.monthNames = [
-            _('Vendémiaire'), _('Brumaire'), _('Frimaire'),
-            _('Nivôse'), _('Pluviôse'), _('Ventôse'),
-            _('Germinal'), _('Floréal'), _('Prairial'),
-            _('Messidor'), _('Thermidor'), _('Fructidor'),
+            _('Vintagearious'), _('Fogarious'), _('Frostarious'),
+            _('Snowous'), _('Rainous'), _('Windous'),
+            _('Buddal'), _('Floweral'), _('Meadowal'),
+            _('Reapidor'), _(' Heatidor'), _('Fruitidor'),
             _('Sans-culottides'),
         ];
         this.sansculottidesNames = [
-            _('jour de la vertu'), _('jour du génie'),
-            _('jour du travail'), _('jour de l´opinion'),
-            _('jour des récompenses'), _('jour de la révolution'),
+            _('Celebration of Virtue'), _('Celebration of Talent'),
+            _('Celebration of Labour'), _('Celebration of Convictions'),
+            _('Celebration of Honors'), _('Celebration of the Revolution'),
         ];
         this.dayNames = [
             'Primidi', 'Duodi', 'Tridi', 'Quartidi', 'Quintidi',
@@ -526,6 +527,7 @@ class RuralCalendar {
         }
         return daymonth;
     }
+
 
     // END BORROWED CODE
 
@@ -667,12 +669,11 @@ class RuralCalendarTopMenu extends PanelMenu.Button {
      */
     open_wiki() {
         let url = this.calendar.getWikiUrl();
-        log(url);
         Gio.AppInfo.launch_default_for_uri_async(url, null, null, null);
     }
 
     /**
-     * Update teh widget, fetching detail data if required.
+     * Update the widget, fetching detail data if required.
      *
      * @returns true
      */
@@ -713,7 +714,7 @@ class RuralCalendarTopMenu extends PanelMenu.Button {
         if (!this.detail_url)
             log("Invalid URL, won't fetch details.");
 
-
+        // TODO: what happen if there is no network connection ?
         let detailFile = Gio.File.new_for_uri(this.detail_url);
         detailFile.read(null);
         const [, contents] = detailFile.load_contents(null);
@@ -778,7 +779,7 @@ class RuralCalendarTopMenu extends PanelMenu.Button {
             Mainloop.source_remove(this.timeout);
             this.timeout = null;
         }
-        this.widget.kill = true;
+        this.kill = true;
     }
 });
 

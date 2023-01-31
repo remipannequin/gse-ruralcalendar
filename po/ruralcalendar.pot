@@ -1,0 +1,106 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-01-31 13:58+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../extension.js:480
+msgid " Heatidor"
+msgstr ""
+
+#: ../extension.js:479
+msgid "Buddal"
+msgstr ""
+
+#: ../extension.js:485
+msgid "Celebration of Convictions"
+msgstr ""
+
+#: ../extension.js:486
+msgid "Celebration of Honors"
+msgstr ""
+
+#: ../extension.js:485
+msgid "Celebration of Labour"
+msgstr ""
+
+#: ../extension.js:484
+msgid "Celebration of Talent"
+msgstr ""
+
+#: ../extension.js:484
+msgid "Celebration of Virtue"
+msgstr ""
+
+#: ../extension.js:486
+msgid "Celebration of the Revolution"
+msgstr ""
+
+#: ../extension.js:479
+msgid "Floweral"
+msgstr ""
+
+#: ../extension.js:477
+msgid "Fogarious"
+msgstr ""
+
+#: ../extension.js:477
+msgid "Frostarious"
+msgstr ""
+
+#: ../extension.js:480
+msgid "Fruitidor"
+msgstr ""
+
+#: ../extension.js:479
+msgid "Meadowal"
+msgstr ""
+
+#: ../extension.js:478
+msgid "Rainous"
+msgstr ""
+
+#: ../extension.js:480
+msgid "Reapidor"
+msgstr ""
+
+#: ../extension.js:481
+msgid "Sans-culottides"
+msgstr ""
+
+#: ../extension.js:478
+msgid "Snowous"
+msgstr ""
+
+#: ../extension.js:477
+msgid "Vintagearious"
+msgstr ""
+
+#: ../extension.js:478
+msgid "Windous"
+msgstr ""
+
+#: ../extension.js:492
+msgid "first"
+msgstr ""
+
+#: ../extension.js:492
+msgid "second"
+msgstr ""
+
+#: ../extension.js:492
+msgid "third"
+msgstr ""
