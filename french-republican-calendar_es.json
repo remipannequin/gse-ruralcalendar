@@ -176,6 +176,10 @@
         "Cichorium_endivia"
     ],
     [
+        "guajolote",
+        "Meleagris"
+    ],
+    [
         "escarav\u00eda",
         "Sium_sisarum"
     ],
@@ -196,6 +200,10 @@
         "grada_(agricultura)"
     ],
     [
+        "chilca",
+        "Baccharis_halimifolia"
+    ],
+    [
         "acerolo",
         "Crataegus_azarolus"
     ],
@@ -214,6 +222,10 @@
     [
         "pistacho",
         "Pistacia_vera"
+    ],
+    [
+        "Lathyrus tuberosus",
+        "Lathyrus_tuberosus"
     ],
     [
         "membrillo",
@@ -348,351 +360,1083 @@
         "pala"
     ],
     [
-        "uva",
-        "uva"
+        "turba",
+        "turba"
     ],
     [
-        "azafr\u00e1n",
-        "Crocus_sativus"
+        "carb\u00f3n",
+        "carb\u00f3n"
     ],
     [
-        "casta\u00f1a",
-        "casta\u00f1a"
+        "bet\u00fan",
+        "bet\u00fan"
     ],
     [
-        "c\u00f3lquida",
-        "Colchicum_autumnale"
+        "azufre",
+        "azufre"
     ],
     [
-        "caballo",
-        "Equus_ferus_caballus"
+        "perro",
+        "Canis_lupus_familiaris"
     ],
     [
-        "balsamina",
-        "balsaminaceae"
+        "lava",
+        "lava"
     ],
     [
-        "zanahoria",
-        "Daucus_carota"
+        "suelo",
+        "suelo"
     ],
     [
-        "amaranto",
-        "Amaranthus"
+        "esti\u00e9rcol",
+        "esti\u00e9rcol"
     ],
     [
-        "chiriv\u00eda",
-        "Pastinaca_sativa"
+        "salitre",
+        "salitre"
     ],
     [
-        "tinaja",
-        "tinaja"
+        "mayal",
+        "mayal"
     ],
     [
-        "patata",
-        "Solanum_tuberosum"
+        "granito",
+        "granito"
     ],
     [
-        "flor de papel",
-        "Helichrysum"
+        "arcilla",
+        "arcilla"
     ],
     [
-        "calabaza",
-        "Cucurbita"
+        "pizarra",
+        "pizarra_(roca)"
     ],
     [
-        "reseda",
-        "reseda"
+        "arenisca",
+        "arenisca"
     ],
     [
-        "asno",
-        "Equus_africanus_asinus"
+        "conejo",
+        "Oryctolagus_cuniculus"
     ],
     [
-        "bella de noche",
-        "Mirabilis_jalapa"
+        "s\u00edlex",
+        "s\u00edlex"
     ],
     [
-        "calabaza oto\u00f1al",
-        "Calabaza_gigante"
+        "marga",
+        "marga"
     ],
     [
-        "alforf\u00f3n",
-        "Fagopyrum_esculentum"
+        "caliza",
+        "caliza"
     ],
     [
-        "girasol",
-        "Helianthus_annuus"
+        "m\u00e1rmol",
+        "m\u00e1rmol"
     ],
     [
-        "lagar",
-        "lagar_(recipiente)"
+        "criba",
+        "criba"
     ],
     [
-        "c\u00e1\u00f1amo",
-        "c\u00e1\u00f1amo"
+        "piedra de yeso",
+        "yeso"
     ],
     [
-        "melocot\u00f3n",
-        "Prunus_persica"
+        "sal",
+        "sal"
     ],
     [
-        "nabo",
+        "hierro",
+        "hierro"
+    ],
+    [
+        "cobre",
+        "cobre"
+    ],
+    [
+        "gato",
+        "Felis_silvestris_catus"
+    ],
+    [
+        "esta\u00f1o",
+        "esta\u00f1o"
+    ],
+    [
+        "plomo",
+        "plomo"
+    ],
+    [
+        "cinc",
+        "cinc"
+    ],
+    [
+        "mercurio",
+        "Mercurio_(elemento)"
+    ],
+    [
+        "tamiz",
+        "cedazo"
+    ],
+    [
+        "laureola",
+        "Daphne_laureola"
+    ],
+    [
+        "musgo",
+        "Bryophyta_sensu_stricto"
+    ],
+    [
+        "rusco",
+        "Ruscus_aculeatus"
+    ],
+    [
+        "galanto",
+        "Galanthus_nivalis"
+    ],
+    [
+        "toro",
+        "Bos_primigenius_taurus"
+    ],
+    [
+        "durillo",
+        "Viburnum_tinus"
+    ],
+    [
+        "hongo yesquero",
+        "hongo_yesquero"
+    ],
+    [
+        "mezere\u00f3n",
+        "Daphne_mezereum"
+    ],
+    [
+        "\u00e1lamo",
+        "Populus"
+    ],
+    [
+        "hacha",
+        "hacha"
+    ],
+    [
+        "el\u00e9boro",
+        "Helleborus"
+    ],
+    [
+        "br\u00e9col",
+        "Brassica_oleracea_italica"
+    ],
+    [
+        "laurel",
+        "Laurus_nobilis"
+    ],
+    [
+        "avellano",
+        "Corylus_avellana"
+    ],
+    [
+        "vaca",
+        "Bos_primigenius_taurus"
+    ],
+    [
+        "boj",
+        "buxus"
+    ],
+    [
+        "liquen",
+        "liquen"
+    ],
+    [
+        "tejo",
+        "Taxus"
+    ],
+    [
+        "pulmonaria",
+        "pulmonaria"
+    ],
+    [
+        "corquete",
+        "corquete"
+    ],
+    [
+        "carraspique",
+        "Thlaspi_arvense"
+    ],
+    [
+        "torvisco",
+        "Daphne_gnidium"
+    ],
+    [
+        "gramilla",
+        "Cynodon"
+    ],
+    [
+        "centinodia",
+        "Polygonum_aviculare"
+    ],
+    [
+        "liebre",
+        "liebre"
+    ],
+    [
+        "isatide",
+        "Isatis_tinctoria"
+    ],
+    [
+        "avellano",
+        "Corylus_avellana"
+    ],
+    [
+        "ciclamen",
+        "Cyclamen"
+    ],
+    [
+        "celidonia mayor",
+        "Chelidonium_majus"
+    ],
+    [
+        "trineo",
+        "trineo"
+    ],
+    [
+        "tusilago",
+        "Tussilago"
+    ],
+    [
+        "corno",
+        "Cornus"
+    ],
+    [
+        "alhel\u00ed",
+        "Erysimum"
+    ],
+    [
+        "aligustre",
+        "Ligustrum"
+    ],
+    [
+        "macho cabr\u00edo",
+        "macho_cabr\u00edo"
+    ],
+    [
+        "jengibre silvestre",
+        "Asarum_canadense"
+    ],
+    [
+        "aladierno",
+        "Rhamnus_alaternus"
+    ],
+    [
+        "violeta",
+        "Viola_(g\u00e9nero)"
+    ],
+    [
+        "sauce cabruno",
+        "Salix_caprea"
+    ],
+    [
+        "laya",
+        "laya"
+    ],
+    [
+        "narciso",
+        "Narcissus"
+    ],
+    [
+        "olmo",
+        "Ulmus"
+    ],
+    [
+        "fumaria",
+        "fumaria"
+    ],
+    [
+        "er\u00edsimo",
+        "Sisymbrium_officinale"
+    ],
+    [
+        "cabra",
+        "Capra"
+    ],
+    [
+        "espinaca",
+        "Spinacia_oleracea"
+    ],
+    [
+        "doronicum",
+        "doronicum"
+    ],
+    [
+        "anagallis",
+        "anagallis"
+    ],
+    [
+        "perifollo",
+        "perifollo"
+    ],
+    [
+        "hilo",
+        "hilo"
+    ],
+    [
+        "mandr\u00e1gora",
+        "Mandragora"
+    ],
+    [
+        "perejil",
+        "Petroselinum_crispum"
+    ],
+    [
+        "coclearia",
+        "Cochlearia"
+    ],
+    [
+        "margarita",
+        "Bellis_perennis"
+    ],
+    [
+        "at\u00fan",
+        "Thunnus"
+    ],
+    [
+        "diente de le\u00f3n",
+        "Taraxacum_officinale"
+    ],
+    [
+        "an\u00e9mona de bosque",
+        "Anemone_nemorosa"
+    ],
+    [
+        "culantrillo",
+        "Adiantum_capillus-veneris"
+    ],
+    [
+        "fresno",
+        "Fraxinus"
+    ],
+    [
+        "plantador",
+        "plantador"
+    ],
+    [
+        "primavera",
+        "Primula"
+    ],
+    [
+        "sicomoro",
+        "Acer_pseudoplatanus"
+    ],
+    [
+        "esp\u00e1rrago",
+        "Asparagus_officinalis"
+    ],
+    [
+        "tulip\u00e1n",
+        "Tulipa"
+    ],
+    [
+        "gallina",
+        "Gallus_gallus_domesticus"
+    ],
+    [
+        "acelga",
+        "Beta_vulgaris_var._cicla"
+    ],
+    [
+        "abedul",
+        "Betula"
+    ],
+    [
+        "junquillo",
+        "junquillo"
+    ],
+    [
+        "alnus",
+        "alnus"
+    ],
+    [
+        "nidal",
+        "nidal"
+    ],
+    [
+        "vinca",
+        "vinca"
+    ],
+    [
+        "carpe",
+        "Carpinus"
+    ],
+    [
+        "morchella",
+        "morchella"
+    ],
+    [
+        "haya",
+        "Fagus_sylvatica"
+    ],
+    [
+        "abeja",
+        "Anthophila"
+    ],
+    [
+        "lechuga",
+        "Lactuca_sativa"
+    ],
+    [
+        "alerce",
+        "Larix"
+    ],
+    [
+        "cicuta",
+        "Conium_maculatum"
+    ],
+    [
+        "r\u00e1bano",
+        "Armoracia_rusticana"
+    ],
+    [
+        "colmena",
+        "colmena"
+    ],
+    [
+        "\u00e1rbol de Judea",
+        "Cercis_siliquastrum"
+    ],
+    [
+        "lechuga romana",
+        "lechuga_romana"
+    ],
+    [
+        "casta\u00f1o de Indias",
+        "Aesculus_hippocastanum"
+    ],
+    [
+        "roqueta",
+        "Eruca_vesicaria"
+    ],
+    [
+        "paloma",
+        "Columbidae"
+    ],
+    [
+        "lila",
+        "Syringa_vulgaris"
+    ],
+    [
+        "an\u00e9mona",
+        "Anemone"
+    ],
+    [
+        "pensamiento",
+        "Viola_\u00d7_wittrockiana"
+    ],
+    [
+        "ar\u00e1ndano",
+        "Vaccinium_myrtillus"
+    ],
+    [
+        "cuchillo",
+        "cuchillo"
+    ],
+    [
+        "rosa",
+        "rosa"
+    ],
+    [
+        "roble",
+        "roble"
+    ],
+    [
+        "helecho",
+        "Filicopsida"
+    ],
+    [
+        "majuelo",
+        "crataegus"
+    ],
+    [
+        "ruise\u00f1or",
+        "Luscinia_megarhynchos"
+    ],
+    [
+        "aguile\u00f1a",
+        "Aquilegia"
+    ],
+    [
+        "convalaria",
+        "Convallaria_majalis"
+    ],
+    [
+        "seta",
+        "seta"
+    ],
+    [
+        "jacinto",
+        "Hyacinthus"
+    ],
+    [
+        "rastrillo",
+        "rastrillo_(herramienta)"
+    ],
+    [
+        "ruibarbo",
+        "Rheum_rhabarbarum"
+    ],
+    [
+        "esparceta",
+        "onobrychis"
+    ],
+    [
+        "erysimun",
+        "erysimun"
+    ],
+    [
+        "palmito",
+        "Chamaerops_humilis"
+    ],
+    [
+        "gusano de seda",
+        "Bombyx_mori"
+    ],
+    [
+        "consuelda",
+        "Symphytum"
+    ],
+    [
+        "alg\u00e1fita",
+        "Sanguisorba_minor"
+    ],
+    [
+        "alyssum",
+        "alyssum"
+    ],
+    [
+        "atriplex",
+        "atriplex"
+    ],
+    [
+        "escardillo",
+        "escardillo"
+    ],
+    [
+        "clavelina de mar",
+        "Armeria_maritima"
+    ],
+    [
+        "fritillaria",
+        "fritillaria"
+    ],
+    [
+        "borraja",
+        "Borago_officinalis"
+    ],
+    [
+        "valeriana",
+        "Valeriana_officinalis"
+    ],
+    [
+        "carpa",
+        "Cyprinus_carpio"
+    ],
+    [
+        "bonetero",
+        "Euonymus_europaeus"
+    ],
+    [
+        "ceboll\u00edn",
+        "Allium_schoenoprasum"
+    ],
+    [
+        "anchusa",
+        "anchusa"
+    ],
+    [
+        "mostaza blanca",
+        "Sinapis_alba"
+    ],
+    [
+        "cayado",
+        "Cayado_(bast\u00f3n)"
+    ],
+    [
+        "alfalfa",
+        "Medicago_sativa"
+    ],
+    [
+        "lirio de d\u00eda",
+        "Hemerocallis"
+    ],
+    [
+        "tr\u00e9bol",
+        "Trifolium"
+    ],
+    [
+        "Angelica",
+        "Angelica"
+    ],
+    [
+        "pato",
+        "pato"
+    ],
+    [
+        "toronjil",
+        "toronjil"
+    ],
+    [
+        "Arrhenatherum elatius",
+        "Arrhenatherum_elatius"
+    ],
+    [
+        "martag\u00f3n",
+        "Lilium_martagon"
+    ],
+    [
+        "serpol",
+        "Thymus_serpyllum"
+    ],
+    [
+        "guada\u00f1a",
+        "guada\u00f1a"
+    ],
+    [
+        "fresa",
+        "Fragaria"
+    ],
+    [
+        "salvia",
+        "salvia"
+    ],
+    [
+        "guisante",
+        "Pisum_sativum"
+    ],
+    [
+        "acacia",
+        "acacia"
+    ],
+    [
+        "codorniz",
+        "Coturnix_coturnix"
+    ],
+    [
+        "clavel",
+        "Dianthus_caryophyllus"
+    ],
+    [
+        "sa\u00faco",
+        "Sambucus"
+    ],
+    [
+        "Papaver",
+        "Papaver"
+    ],
+    [
+        "tilo",
+        "Tilia"
+    ],
+    [
+        "horca",
+        "Horca_(herramienta)"
+    ],
+    [
+        "barbo",
+        "Barbus_barbus"
+    ],
+    [
+        "Chamaemelum nobile",
+        "Chamaemelum_nobile"
+    ],
+    [
+        "madreselva",
+        "Lonicera"
+    ],
+    [
+        "galium",
+        "galium"
+    ],
+    [
+        "Tinca tinca",
+        "Tinca_tinca"
+    ],
+    [
+        "jazm\u00edn",
+        "Jasminum"
+    ],
+    [
+        "verbena",
+        "verbena"
+    ],
+    [
+        "tomillo",
+        "Thymus"
+    ],
+    [
+        "peon\u00eda",
+        "Paeoniaceae"
+    ],
+    [
+        "carro",
+        "carro"
+    ],
+    [
+        "centeno",
+        "Secale_cereale"
+    ],
+    [
+        "avena",
+        "avena"
+    ],
+    [
+        "cebolla",
+        "Allium_cepa"
+    ],
+    [
+        "ver\u00f3nica",
+        "veronica_(planta)"
+    ],
+    [
+        "mula",
+        "Mula_(animal)"
+    ],
+    [
+        "romero",
+        "Rosmarinus_officinalis"
+    ],
+    [
+        "pepino",
+        "Cucumis_sativus"
+    ],
+    [
+        "chalote",
+        "Allium_ascalonicum"
+    ],
+    [
+        "absenta",
+        "absenta"
+    ],
+    [
+        "hoz",
+        "Hoz_(herramienta)"
+    ],
+    [
+        "cilantro",
+        "Coriandrum_sativum"
+    ],
+    [
+        "alcachofa",
+        "Cynara_scolymus"
+    ],
+    [
+        "clavo",
+        "clavo_(objeto)"
+    ],
+    [
+        "lavanda",
+        "Lavandula"
+    ],
+    [
+        "gamuza",
+        "Rupicapra_rupicapra"
+    ],
+    [
+        "tabaco",
+        "tabaco"
+    ],
+    [
+        "grosella",
+        "grosella"
+    ],
+    [
+        "lathyrus",
+        "lathyrus"
+    ],
+    [
+        "cereza",
+        "cereza"
+    ],
+    [
+        "parque",
+        "parque"
+    ],
+    [
+        "menta",
+        "Mentha"
+    ],
+    [
+        "comino",
+        "Cuminum_cyminum"
+    ],
+    [
+        "jud\u00eda",
+        "Phaseolus_vulgaris"
+    ],
+    [
+        "palomilla de tintes",
+        "Alkanna_tinctoria"
+    ],
+    [
+        "gallina de Guinea",
+        "gallina_de_Guinea"
+    ],
+    [
+        "salvia",
+        "salvia"
+    ],
+    [
+        "ajo",
+        "Allium_sativum"
+    ],
+    [
+        "algarroba",
+        "algarroba"
+    ],
+    [
+        "trigo",
+        "Triticum"
+    ],
+    [
+        "chirim\u00eda",
+        "chirim\u00eda"
+    ],
+    [
+        "escanda / esca\u00f1a",
+        "Triticum_dicoccoides"
+    ],
+    [
+        "verbasco",
+        "verbasco"
+    ],
+    [
+        "mel\u00f3n",
+        "Cucumis_melo"
+    ],
+    [
+        "ciza\u00f1a",
+        "Lolium_temulentum"
+    ],
+    [
+        "carnero",
+        "Ovis_orientalis_aries"
+    ],
+    [
+        "cola de caballo",
+        "Equisetaceae"
+    ],
+    [
+        "artemisa",
+        "artemisa"
+    ],
+    [
+        "c\u00e1rtamo",
+        "Carthamus_tinctorius"
+    ],
+    [
+        "mora",
+        "Mora_(fruta)"
+    ],
+    [
+        "regadera",
+        "regadera"
+    ],
+    [
+        "panicum",
+        "panicum"
+    ],
+    [
+        "salicor",
+        "salicor"
+    ],
+    [
+        "albaricoque",
+        "Prunus_armeniaca"
+    ],
+    [
+        "albahaca",
+        "Ocimum_basilicum"
+    ],
+    [
+        "oveja",
+        "Ovis_orientalis_aries"
+    ],
+    [
+        "Malvaceae",
+        "Malvaceae"
+    ],
+    [
+        "lino",
+        "Linum_usitatissimum"
+    ],
+    [
+        "almendra",
+        "almendra"
+    ],
+    [
+        "genciana",
+        "Gentiana"
+    ],
+    [
+        "esclusa",
+        "esclusa"
+    ],
+    [
+        "carlina",
+        "carlina"
+    ],
+    [
+        "alcaparra",
+        "Capparis_spinosa"
+    ],
+    [
+        "lenteja",
+        "Lens_culinaris"
+    ],
+    [
+        "Inula",
+        "Inula"
+    ],
+    [
+        "nutria",
+        "Lutrinae"
+    ],
+    [
+        "mirto",
+        "mirto"
+    ],
+    [
+        "colza",
         "Brassica_napus"
     ],
     [
-        "amarilis",
-        "Amaryllis"
+        "lupino",
+        "lupino"
     ],
     [
-        "buey",
-        "buey"
+        "algod\u00f3n",
+        "Gossypium"
     ],
     [
-        "berenjena",
-        "Solanum_melongena"
+        "molino",
+        "molino"
     ],
     [
-        "pimiento",
-        "chile_(pimiento)"
+        "ciruela",
+        "ciruela"
     ],
     [
-        "tomate",
-        "Solanum_lycopersicum"
+        "mijo",
+        "mijo"
+    ],
+    [
+        "soplo de lobo",
+        "Lycoperdaceae"
     ],
     [
         "cebada",
         "Hordeum_vulgare"
     ],
     [
-        "barril",
-        "barril"
+        "salm\u00f3n",
+        "Salmo_(g\u00e9nero)"
     ],
     [
-        "manzana",
-        "manzana"
+        "nardo",
+        "nardo"
     ],
     [
-        "apio",
-        "Apium_graveolens"
+        "cebada",
+        "Hordeum_vulgare"
     ],
     [
-        "pera",
-        "pera"
+        "adelfa",
+        "Apocynaceae"
     ],
     [
-        "remolacha",
-        "Beta_vulgaris"
+        "regaliz",
+        "Glycyrrhiza_glabra"
     ],
     [
-        "oca",
-        "Anser_anser"
+        "escala",
+        "escala"
     ],
     [
-        "heli\u00f3tropo",
-        "Heliotropium"
+        "sand\u00eda",
+        "Citrullus_lanatus"
     ],
     [
-        "higo",
-        "higo"
+        "hinojo",
+        "Foeniculum_vulgare"
     ],
     [
-        "escorzonera",
-        "Scorzonera_hispanica"
+        "berberis",
+        "berberis"
     ],
     [
-        "mostajo",
-        "Sorbus_torminalis"
+        "nuez",
+        "Nuez_(fruto)"
     ],
     [
-        "arado",
-        "arado_(agricultura)"
+        "trucha",
+        "trucha"
     ],
     [
-        "salsif\u00ed",
-        "Tragopogon"
+        "lim\u00f3n",
+        "Citrus_\u00d7_limon"
     ],
     [
-        "casta\u00f1a de agua",
-        "Trapa"
+        "cardencha",
+        "cardencha"
     ],
     [
-        "tupinambo",
-        "Helianthus_tuberosus"
+        "espino cerval",
+        "Rhamnus_catharticus"
     ],
     [
-        "endibia",
-        "Cichorium_endivia"
+        "clavel\u00f3n",
+        "tagetes"
     ],
     [
-        "escarav\u00eda",
-        "Sium_sisarum"
+        "cesto",
+        "cesta"
     ],
     [
-        "berro",
-        "Nasturtium_officinale"
+        "escaramujo",
+        "tapaculo_(fruto)"
     ],
     [
-        "dentelaria",
-        "Plumbago_europaea"
+        "avellana",
+        "avellana"
     ],
     [
-        "granada",
-        "Punica_granatum"
+        "l\u00fapulo",
+        "Humulus_lupulus"
     ],
     [
-        "grada",
-        "grada_(agricultura)"
+        "sorgo",
+        "Sorghum"
     ],
     [
-        "acerolo",
-        "Crataegus_azarolus"
+        "cangrejo de r\u00edo",
+        "cangrejo_de_r\u00edo"
     ],
     [
-        "rubia roja",
-        "Rubia_tinctorum"
+        "naranja amarga",
+        "Citrus_\u00d7_aurantium"
     ],
     [
-        "naranja",
-        "Citrus_x_sinensis"
+        "vara de oro",
+        "Solidago"
     ],
     [
-        "fais\u00e1n",
-        "Phasianus_colchicus"
+        "ma\u00edz",
+        "Zea_mays"
     ],
     [
-        "pistacho",
-        "Pistacia_vera"
+        "casta\u00f1a",
+        "casta\u00f1a"
     ],
     [
-        "membrillo",
-        "Cydonia"
-    ],
-    [
-        "serbal",
-        "Sorbus_domestica"
-    ],
-    [
-        "rodillo",
-        "rodillo_(agricultura)"
-    ],
-    [
-        "rap\u00f3nchigo",
-        "Campanula_rapunculus"
-    ],
-    [
-        "nabo forrajero",
-        "Brassica_napus"
-    ],
-    [
-        "achicoria",
-        "Cichorium_intybus"
-    ],
-    [
-        "n\u00edspero",
-        "Eriobotrya_japonica"
-    ],
-    [
-        "cerdo",
-        "Sus_scrofa_domestica"
-    ],
-    [
-        "can\u00f3nigo",
-        "Valerianella_locusta"
-    ],
-    [
-        "coliflor",
-        "Brassica_oleracea_var._botrytis_(coliflor)"
-    ],
-    [
-        "miel",
-        "miel"
-    ],
-    [
-        "enebro",
-        "Juniperus"
-    ],
-    [
-        "pico",
-        "Pico_(herramienta)"
-    ],
-    [
-        "cera",
-        "cera"
-    ],
-    [
-        "r\u00e1bano picante",
-        "Armoracia_rusticana"
-    ],
-    [
-        "cedro",
-        "Cedrus"
-    ],
-    [
-        "abeto",
-        "Abies"
-    ],
-    [
-        "corzo",
-        "Capreolus_capreolus"
-    ],
-    [
-        "tojo",
-        "Ulex"
-    ],
-    [
-        "cipr\u00e9s",
-        "Cupressus"
-    ],
-    [
-        "hiedra",
-        "Hedera"
-    ],
-    [
-        "sabina",
-        "Juniperus_sabina"
-    ],
-    [
-        "azad\u00f3n",
-        "azada"
-    ],
-    [
-        "arce",
-        "Acer_(planta)"
-    ],
-    [
-        "brezo",
-        "Erica"
-    ],
-    [
-        "ca\u00f1a",
-        "ca\u00f1a_(vegetal)"
-    ],
-    [
-        "acedera",
-        "Rumex_acetosa"
-    ],
-    [
-        "grillo",
-        "Gryllidae"
-    ],
-    [
-        "pi\u00f1\u00f3n",
-        "pi\u00f1\u00f3n"
-    ],
-    [
-        "corcho",
-        "corcho"
-    ],
-    [
-        "trufa",
-        "Tuber"
-    ],
-    [
-        "aceituna",
-        "aceituna"
-    ],
-    [
-        "pala",
-        "pala"
+        "cesta",
+        "cesta"
     ]
 ]

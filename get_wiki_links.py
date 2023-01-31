@@ -6,10 +6,12 @@ import json
 
 
 # First kind of page: one page, each trimester has it own section
+# This only works if all names are presents.
+# Generated files may require manual corrections...
 titles = [
     ('fr', 'Calendrier_r%C3%A9publicain', [29, 30, 31, 32], ".*FrRepCalLine.*\\[\\[(.*)\\]\\].*"),
     ('en', 'French_Republican_calendar', [10, 11, 12, 13],".*FrRepCalLine.*\\[\\[(.*)\\]\\].*" ),
-    ('es', 'Calendario_republicano_franc%C3%A9s', [9, 10, 11, 12], "#\\W*\\'\\'.*\\'\\'\\W*\\(\\[\\[(.*)\\]\\]\\)")
+    ('es', 'Calendario_republicano_franc%C3%A9s', [9, 13, 17, 21], "#.*\\[\\[(.*)\\]\\]")
     ]
 
 pattern = re.compile(".*FrRepCalLine.*\\[\\[(.*)\\]\\].*")
@@ -36,8 +38,10 @@ for (lang, title, sections, pattern_str) in titles:
                     target = found
                 target = target.replace(' ', '_')
                 saints.append((base, target))
+            elif line.startswith('#'):
+                print(line)
 
-    print(saints)
+    print(len(saints))
 
     with open(f'french-republican-calendar_{lang}.json', 'w') as f:
         json.dump(saints, f)
